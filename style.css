@@ -10,6 +10,11 @@ body {
     color:white;  
 }
 
+.special {
+    background: linear-gradient(to bottom, black 0%,  grey 100%);
+    color:white; 
+}
+
 
 #fox {
     position:fixed;
@@ -238,34 +243,94 @@ body {
 
 
 .splash {
-
     border-radius: 100%;
 }
 
 
 
+.dropbut {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbut:hover, .dropbut:focus {
+    background-color: #2980B9;
+  }
+  
+  .action {
+    display: flex;
+    justify-content: center;
+  }
+  
 
 
+  .content {
+    display: none;
+    position: relative;
+    left: 50px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    width:900px;
+  }
+  .content img {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline;
+    height: 15%;
 
+  }
+  
 
+  .content a:hover {background: linear-gradient(to bottom, #ff99cc 0%, #33ccff 100%);}
+  
+  .show {display:block;}
 
+.users{
+    display:flex;
+    justify-content: space-around;
+}
 
+.users img{
+   
+    border-radius: 100%;
+}
 
+.setBonus {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.setBonus div {
+    font-size: 30px;
+    align-items: center;;
+}
 
+.secSetBonus {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin-bottom: 50px;
+}
 
+.secSetBonus div{
+    font-size: 30px;
+    
+   
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.desInfo {
+    display: flex;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
 a {
     text-decoration: none;
 }
