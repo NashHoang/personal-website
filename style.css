@@ -361,3 +361,8 @@ a {
     font-size: 80px;
     margin-right: 80px;
 }
+
+.grass{
+    display:flex;
+    justify-content:center;
+}
